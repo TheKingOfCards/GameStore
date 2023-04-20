@@ -1,0 +1,171 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+body
+{
+    background-color: rgb(207, 207, 207);
+}
+
+header
+{
+    background-color: rgb(22, 22, 22);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 3%;
+    justify-content: space-between;
+}
+.logo_name
+{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header ul
+{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    margin-right: 5%;
+    
+}
+header ul li
+{
+    padding: 5% 30px;
+    position: relative;
+}
+header ul li a
+{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+header ul li a:hover
+{
+    color: rgb(72, 72, 87);
+}
+
+
+.dropdown_Menu
+{
+    display: none;
+}
+header ul li:hover .dropdown_Menu
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(32, 32, 32);
+    margin-left: 3%;
+}
+.dropdown_Menu ul
+{
+    display: block;
+    margin: 10px;
+}
+.dropdown_Menu ul li
+{
+    width: 100px;
+    padding: 10px;
+}
+
+
+.name
+{
+    text-decoration: none;
+    color: white;
+    margin-left: 2%;
+}
+.name span
+{
+    color: purple;
+}
+
+
+.bestSeller
+{
+    margin: 20px;
+}
+.bestSeller img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+.trending
+{
+    margin: 20px;
+    margin-bottom: 100px;
+}
+.trendingDivs
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.trendingDivs div
+{
+    background-color: white;
+    height: 200px;
+    width: 20%;
+    box-shadow: 3px 3px 15px black;
+}
+.trendingDivs h3
+{
+    margin-left: 10px;
+    color: black;
+}
+
+
+
+.name_price
+{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+.gmaeName
+{
+    color: black;
+    margin-top: 10px;
+    margin-right: 5%;
+    font-size: 25px;
+}
+.price
+{
+    height: 100px;
+    width: 30%;
+    background-color: rgb(179, 179, 179);
+    border-radius: 10px;
+    text-align: center;
+    outline: gray solid 3px;
+}
+.price h2
+{
+    margin-top: 10px;
+}
+.price button
+{
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: rgb(118, 224, 224);
+    font-size: large;
+}
+.price button:hover
+{
+    background-color: rgb(103, 196, 196);
+}
